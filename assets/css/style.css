@@ -14,7 +14,7 @@ nav ul a {
 }
 
 body {
-  background-image: url('../images/nightsky.png') !important;
+  background-image: url('../images/nightsky.jpg') !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -30,8 +30,8 @@ body {
 .content {
   padding-top: 40px;
   grid-column: 1 / -1;
-  font-size: 36px;
+  font-size: 40px;
   font-family: 'Poppins', sans-serif;
   color: white;
-  text-shadow: 2px 2px #5571FA;
+  text-shadow: 1px 1px #5571FA;
 }
