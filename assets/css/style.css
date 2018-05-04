@@ -13,6 +13,12 @@ nav ul a {
   font-family: 'Kalam', cursive;
 }
 
+body {
+  background-image: url('../images/nightsky.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .container {
   display: grid;
   grid-template-columns: 3fr 3fr 3fr;
@@ -22,7 +28,10 @@ nav ul a {
 }
 
 .content {
+  padding-top: 40px;
   grid-column: 1 / -1;
-  font-size: 40px;
+  font-size: 36px;
   font-family: 'Poppins', sans-serif;
+  color: white;
+  text-shadow: 2px 2px #5571FA;
 }
