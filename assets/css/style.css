@@ -1,0 +1,28 @@
+.nav-wrapper {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Kalam', cursive;
+}
+
+nav ul a {
+  text-shadow: 1px 1px black;
+  font-size: 20px !important;
+}
+
+.sidenav {
+  font-family: 'Kalam', cursive;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: 500px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.content {
+  grid-column: 1 / -1;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+}
